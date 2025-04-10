@@ -17,7 +17,7 @@ public class Letter {
     @Column(name = "date", nullable = false)
     private LocalDate date;
 
-    @Column(name = "category", nullable = false) // ✅ Using String instead of Enum
+    @Column(name = "category", nullable = false)
     private String category;
 
     @Column(name = "heading", nullable = false, length = 255)
